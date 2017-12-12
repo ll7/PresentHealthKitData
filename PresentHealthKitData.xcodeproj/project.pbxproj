@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DD0AF9481FE08552005D652E /* RequestingAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0AF9471FE08552005D652E /* RequestingAuthorization.swift */; };
+		DD0AF94A1FE08F81005D652E /* HealthKitSetupAssistant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0AF9491FE08F81005D652E /* HealthKitSetupAssistant.swift */; };
 		DDC242471FE074590000F52E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC242461FE074590000F52E /* AppDelegate.swift */; };
 		DDC242491FE074590000F52E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC242481FE074590000F52E /* ViewController.swift */; };
 		DDC2424C1FE074590000F52E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC2424A1FE074590000F52E /* Main.storyboard */; };
@@ -36,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DD0AF9471FE08552005D652E /* RequestingAuthorization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestingAuthorization.swift; sourceTree = "<group>"; };
+		DD0AF9491FE08F81005D652E /* HealthKitSetupAssistant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HealthKitSetupAssistant.swift; sourceTree = "<group>"; };
 		DDC242431FE074590000F52E /* PresentHealthKitData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentHealthKitData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DDC242461FE074590000F52E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DDC242481FE074590000F52E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -104,13 +104,13 @@
 		DDC242451FE074590000F52E /* PresentHealthKitData */ = {
 			isa = PBXGroup;
 			children = (
+				DD0AF9491FE08F81005D652E /* HealthKitSetupAssistant.swift */,
 				DDC242741FE075BB0000F52E /* PresentHealthKitData.entitlements */,
 				DDC242461FE074590000F52E /* AppDelegate.swift */,
 				DDC242481FE074590000F52E /* ViewController.swift */,
 				DDC2424A1FE074590000F52E /* Main.storyboard */,
 				DDC2424D1FE074590000F52E /* Assets.xcassets */,
 				DDC2424F1FE074590000F52E /* LaunchScreen.storyboard */,
-				DD0AF9471FE08552005D652E /* RequestingAuthorization.swift */,
 				DDC242521FE074590000F52E /* Info.plist */,
 			);
 			path = PresentHealthKitData;
@@ -281,8 +281,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0AF94A1FE08F81005D652E /* HealthKitSetupAssistant.swift in Sources */,
 				DDC242491FE074590000F52E /* ViewController.swift in Sources */,
-				DD0AF9481FE08552005D652E /* RequestingAuthorization.swift in Sources */,
 				DDC242471FE074590000F52E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
